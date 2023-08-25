@@ -9,6 +9,8 @@
 
 :pushpin: Integrantes:
 
+- Daniela Armijo
+  
 - Marianela Orozco
 
 - Matías Olmedo
@@ -19,7 +21,7 @@
 
 - Beatriz Ramírez
 
-- Daniela Armijo
+
 
   Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
