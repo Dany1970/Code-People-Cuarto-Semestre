@@ -23,8 +23,6 @@
 
 
 
-  Nos demoramos en el inicio del trabajo, ya nos pondremos al día
-
 :heavy_check_mark: Primera Semana - Scrum Master Beatriz Ramírez
 
 :heavy_check_mark: Segunda Semana - Scrum Master Daniela Armijo
