@@ -25,9 +25,9 @@
 
 :heavy_check_mark: Primera Semana - Scrum Master Beatriz Ramírez
 
-:heavy_check_mark: Segunda Semana - Scrum Master Daniela Armijo
+:heavy_check_mark: Segunda Semana - Scrum Master Nicolas Calvo
 
-:heavy_check_mark: Tercera Semana - Scrum Master Nicolas Calvo
+:heavy_check_mark: Tercera Semana - Scrum Master Daniela Armijo
 
 :heavy_check_mark: Cuarta Semana - Scrum Master Matias Kudaka
 
