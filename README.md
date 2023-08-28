@@ -35,6 +35,4 @@
 
 :heavy_check_mark: Sexta Semana - Scrum Master Matias Olmedo
 
-:heavy_check_mark: Séptima Semana - Scrum Master Daniela Armijo
 
-:heavy_check_mark: Séptima Semana - Scrum Master Nicolas Calvo
