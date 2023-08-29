@@ -1,5 +1,4 @@
 package UTN.presentacion;
-
 import java.util.Scanner;
 
 import UTN.conexion.Conexion;
