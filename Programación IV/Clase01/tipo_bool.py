@@ -1,3 +1,4 @@
+<<<<ny
 # Bool contiene los valores True y False
 # Los tipos numéricos es false para el 0 y True para el resto (incluso negativos)
 # también es válido para float
@@ -79,3 +80,16 @@ else:
 # ponerle un fin para que no sea infinito cuando es True
 
 
+=======
+#Bool contiene los valores true y false
+# Los tipos numericos, es false para 0 (cero), true para los demas valores
+
+
+valor = 0.0
+resultado = bool (valor)
+print(f'Valor: {valor}, Resultado: {resultado}')
+
+valor = 0.1
+resultado = bool (valor)
+print(f'Valor: {valor}, Resultado: {resultado}')
+ main
