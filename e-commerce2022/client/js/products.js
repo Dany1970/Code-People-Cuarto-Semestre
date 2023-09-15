@@ -13,7 +13,7 @@ const productos = [
         price: 2000,
         quantity: 1,
         description: "cepillo mediano para barrido de pisos",
-        img: "client\media\escobillon.png",
+        img: "client\media\escobillon.jpg",
     },
     {
         id: 3,
