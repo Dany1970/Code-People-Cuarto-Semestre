@@ -5,7 +5,7 @@ const productos = [
         price: 550,
         quanty: 1,
         description: "aerosol desodorante de ambientes",
-        img: "client\media\desodorantedeambiente.jpg",
+        img: "/client/media/desodorantedeambiente.jpg",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const productos = [
         price: 2000,
         quanty: 1,
         description: "cepillo mediano para barrido de pisos",
-        img: "client\media\esscobillon.jpg",
+        img: "/client/media/esscobillon.jpg",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const productos = [
         price: 430,
         quanty: 1,
         description: "guantes de latex para limpieza",
-        img: "client\media\guantesdelimpieza.png",
+        img: "/client/media/guantesdelimpieza.png",
     }, 
     {
         id: 4,
@@ -29,7 +29,7 @@ const productos = [
         price: 640,
         quanty: 1,
         description: "bidón de 2L de lavandina de primera marca",
-        img: "client\media\lavandina.jpg",
+        img: "/client/media/lavandina.jpg",
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const productos = [
         price: 550,
         quanty: 1,
         description: "papel higiénico de 30m por 4 unidades",
-        img: "client\media\papelhigienico.jpg",
+        img: "/client/media/papelhigienico.jpg",
 
     }, 
     {
@@ -46,7 +46,7 @@ const productos = [
         price: 320,
         quanty: 1,
         description: "líquido limpiapisos con perfume",
-        img: "client\media\perfumeparapiso.jpg",
+        img: "/client/media/perfumeparapiso.jpg",
     }, 
     {
         id: 7,
@@ -54,7 +54,7 @@ const productos = [
         price: 270,
         quanty: 1,
         description: "trapo de piso calidad intermedia",
-        img: "client\media\trapodepiso.jpeg",
+        img: "/client/media/trapodepiso.jpeg",
     }, 
      
 ]       
