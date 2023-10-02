@@ -51,13 +51,14 @@ const modalTitle = document.createElement("div");
       
          // 3.4 Botones de suma y resta de productos
         
-         const decrese = modalBody.querySelector(".quantity-btn-decrese");
-         decrese.addEventListener("click", () => { 
-             if(producto.quanty !== 1){
+         const decrese = modalBody.querySelector(".quantity-btn-decrese")
+         decrese.addEventListener("click", ()=>{
+             if(product.quanty !== 1){
                  product.quanty--;
                  displayCart();
-              }
-          });
+                 displayCartCounter();
+             }
+         });
  
          const increse = modalBody.querySelector(".quantity-btn-increse");
          increse.addEventListener("click", () => {
