@@ -38,10 +38,10 @@ const productos = [
         quanty: 1,
         description: "papel higiénico de 30m por 4 unidades",
         img: "/client/media/higienol-papel-higienico-80-mts-hs.jpg",
-
     }, 
     {
         id: 6,
+
         productName: "Perfumina para piso",
         price: 320,
         quanty: 1,
