@@ -33,11 +33,11 @@
 
 :heavy_check_mark: Quinta Semana - Scrum Master Marianela Orozco
 
-:heavy_check_mark: Sexta Semana - Scrum Master Matias Olmedo
+:heavy_check_mark: Sexta Semana - Scrum Master Beatiz Ramírez
 
-:heavy_check_mark: Septima Semana - Scrum Master Matias Kudaka
+:heavy_check_mark: Septima Semana - Scrum Master 
 
-:heavy_check_mark: Octava Semana - Scrum Master Beatriz Ramírez
+:heavy_check_mark: Octava Semana - Scrum Master 
 
 
 
