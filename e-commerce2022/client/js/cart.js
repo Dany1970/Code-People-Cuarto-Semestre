@@ -26,8 +26,7 @@ const modalTitle = document.createElement("div");
     modalHeader.append(modalTitle);
 
     modalContainer.append(modalHeader);
-
-    
+ 
     // modal body
     cart.forEach((product)=>{
         const modalBody = document.createElement("div");
