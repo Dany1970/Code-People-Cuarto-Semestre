@@ -2,7 +2,7 @@ const modalContainer = document.getElementById("modal-container");
 const modalOverlay = document.getElementById("modal-overlay");
 
 const cartBtn = document.getElementById("cart-btn");
-
+const cartCounter = document.getElementById("cart-counter");
 const displayCart = () => {
     modalContainer.innerHTML = " ";
     modalContainer.style.display = "block";
@@ -29,6 +29,7 @@ const modalTitle = document.createElement("div");
 
     
     // modal body
+    if (cart.length > 0) {
     cart.forEach((product)=>{
         const modalBody = document.createElement("div");
         modalBody.className = "modal-body"
@@ -57,12 +58,14 @@ const modalTitle = document.createElement("div");
                  product.quanty--;
                  displayCart();
               }
+              displayCartCounter();
           });
  
          const increse = modalBody.querySelector(".quantity-btn-increse");
          increse.addEventListener("click", () => {
              product.quanty++;
              displayCart();
+             displayCartCounter();
          });
  
          //delete
@@ -82,7 +85,13 @@ const modalTitle = document.createElement("div");
     modalFooter.innerHTML =`
     <div class="total-price">Total = ${total}:</div>
     `;
-    modalContainer.append(modalFooter)
+    modalContainer.append(modalFooter);
+}else {
+    const modalText = document.createElement("h2");
+    modalRext.className = "modal-body";
+    modalText.innerText = "Your cart is empty";    
+    modalContainer.append(modalText);
+}
 };
 
 cartBtn.addEventListener("click", displayCart);
@@ -94,5 +103,15 @@ const deleteCartProduct =(id)=> {
     //console.log(foundId);
     cart.splice(foundId,1); // lo eliminamos del carrito
     displayCart();
-}
+    displayCartCounter();
+};
+const displayCartCounter = () => {
+    const cartLength = cart.reduce((acc, el) => acc + el.quanty, 0);    
+    if (cartLength > 0) {
+        cartCounter.style.display = "block";
+        cartCounter.innerText = cartLength;
+    }else{
+        cartCounter.style.display = "none";
+    }
+};
    
