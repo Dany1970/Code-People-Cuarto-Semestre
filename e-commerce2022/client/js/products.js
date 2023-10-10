@@ -5,7 +5,7 @@ const productos = [
         price: 550,
         quanty: 1,
         description: "aerosol desodorante de ambientes",
-        img: "/e-commerce2022/client/media/aerosoles.jpg",
+        img: "/client/media/aerosoles.jpg",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const productos = [
         price: 2000,
         quanty: 1,
         description: "cepillo mediano para barrido de pisos",
-        img: "/e-commerce2022/client/media/Escobillon-interiores-virulana.webp",
+        img: "/client/media/Escobillon-interiores-virulana.webp",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const productos = [
         price: 430,
         quanty: 1,
         description: "guantes de latex para limpieza",
-        img: "/e-commerce2022/client/media/guantes.webp",
+        img: "/client/media/guantes.webp",
     }, 
     {
         id: 4,
@@ -29,7 +29,7 @@ const productos = [
         price: 640,
         quanty: 1,
         description: "bidón de 2L de lavandina de primera marca",
-        img: "/e-commerce2022/client/media/lavandina-ayudin-1-litro-clasica.webp",
+        img: "/client/media/lavandina-ayudin-1-litro-clasica.webp",
     },
 
     {
@@ -38,7 +38,7 @@ const productos = [
         price: 270,
         quanty: 1,
         description: "trapo de piso calidad intermedia",
-        img: "/e-commerce2022/client/media/trapo-de-piso.webp",
+        img: "/client/media/trapo-de-piso.webp",
     }, 
      
 ]       
