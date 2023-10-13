@@ -81,8 +81,22 @@ const modalTitle = document.createElement("div");
     modalFooter.className ="modal-footer"
     modalFooter.innerHTML =`
     <div class="total-price">Total = ${total}:</div>
+    <button class="btn-primary" id="checkout-btn"> go to checkout/button>
+    <div id= "button-checkout"></div>
     `;
-    modalContainer.append(modalFooter)
+    modalContainer.append(modalFooter);
+    //mp
+    const mercadopago = new MercadoPago("public_key", {
+        locale: "es-AR",
+    });
+
+    const checkoutButton = modalFooter.querySelector("#checkout-btn");
+}else {
+    const modalText = document.createElement("h2");
+    modalRext.className = "modal-body";
+    modalText.innerText = "Your cart is empty";    
+    modalContainer.append(modalText);
+}
 };
 
 cartBtn.addEventListener("click", displayCart);
