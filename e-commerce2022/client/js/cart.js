@@ -88,7 +88,7 @@ const modalTitle = document.createElement("div");
     modalContainer.append(modalFooter);
 }else {
     const modalText = document.createElement("h2");
-    modalRext.className = "modal-body";
+    modalText.className = "modal-body";
     modalText.innerText = "Your cart is empty";    
     modalContainer.append(modalText);
 }
