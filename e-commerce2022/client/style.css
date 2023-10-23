@@ -193,3 +193,24 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }   
+
+.btn-primary{
+    background-color: blue;
+    border-color: blue;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    transition: backgroup-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: blue;
+    border-color: blue;
+}    
+
+.button-checkout{
+    
+}

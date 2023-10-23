@@ -37,7 +37,7 @@ const productos = [
         price: 550,
         quanty: 1,
         description: "papel higiénico de 30m por 4 unidades",
-        img: "/client/media/higienol-papel-higienico-80-mts-hs.jpg",
+        img: "../media/higienol-papel-higienico-80-mts-hs.jpg",
     }, 
     {
         id: 6,
@@ -46,7 +46,7 @@ const productos = [
         price: 320,
         quanty: 1,
         description: "líquido limpiapisos con perfume",
-        img: "/client/media/Poett.webp",
+        img: "../media/Poett.webp",
     }, 
     {
         id: 7,
@@ -54,7 +54,7 @@ const productos = [
         price: 270,
         quanty: 1,
         description: "trapo de piso calidad intermedia",
-        img: "/client/media/trapo-de-piso.webp",
+        img: "../media/trapo-de-piso.webp",
     }, 
      
 ]       
