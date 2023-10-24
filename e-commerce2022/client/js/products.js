@@ -31,7 +31,23 @@ const productos = [
         description: "bidón de 2L de lavandina de primera marca",
         img: "../media/lavandina-ayudin-1-litro-clasica.webp",
     },
+    {
+        id: 5,
+        productName: "Papel higienico",
+        price: 550,
+        quanty: 1,
+        description: "papel higiénico de 30m por 4 unidades",
+        img: "../media/higienol-papel-higienico-80-mts-hs.jpg",
+    }, 
+    {
+        id: 6,
 
+        productName: "Perfumina para piso",
+        price: 320,
+        quanty: 1,
+        description: "líquido limpiapisos con perfume",
+        img: "../media/Poett.webp",
+    }, 
     {
         id: 7,
         productName: "Trapo de piso",
