@@ -35,9 +35,9 @@
 
 :heavy_check_mark: Sexta Semana - Scrum Master Beatiz Ramírez
 
-:heavy_check_mark: Septima Semana - Scrum Master 
+:heavy_check_mark: Septima Semana - Scrum Master Matías Olmedo
 
-:heavy_check_mark: Octava Semana - Scrum Master 
+:heavy_check_mark: Octava Semana - Scrum Master  - Nicolas Calvo
 
 
 
